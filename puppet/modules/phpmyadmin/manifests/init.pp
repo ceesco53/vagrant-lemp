@@ -1,7 +1,7 @@
 class phpmyadmin {
   package { 'phpmyadmin':
     ensure  => installed,
-    require => Package['php5-fpm'],
+    require => Package['php7.0-fpm'],
   }
 
   file { '/www/phpmyadmin':
