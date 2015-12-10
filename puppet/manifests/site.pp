@@ -1,5 +1,4 @@
 class {'nginx': }
 class {'mariadb::install': }
-class {'php5-fpm': }
-class {'wordpress': }
+class {'php7_0-fpm': }
 class {'phpmyadmin': }
