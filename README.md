@@ -1,14 +1,12 @@
-# vagrant-wordpress
-A refresh of [vagrant-wordpress-lemp](https://bitbucket.org/axocomm/vagrant-wordpress-lemp), which aims to provide quick temporary WordPress development environments.
+# vagrant-lemp
 
 ## Overview
 ### What is Included
 + Ubuntu 14.04
 + Nginx
-+ PHP 5.6
-+ MariaDB 10.0
++ PHP 7.0
++ MariaDB 10.1
 + phpMyAdmin
-+ [WP-CLI](http://wp-cli.org/)
 
 ### Configuration
 Configuration is mostly done inside the `Vagrantfile`. Key items are as follows:
@@ -29,5 +27,4 @@ The document root of the webserver is the `www` directory at the root of this pr
 Account     | Username  | Password
 ------------|-----------|---------
 MySQL       | root      | vagrant
-MySQL WP DB (wordpress) | wordpress | wordpress
-WordPress Admin | vagrant | vagrant
+MySQL vagrant DB (vagrant) | vagrant | vagrant
