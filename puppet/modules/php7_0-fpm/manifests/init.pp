@@ -47,7 +47,7 @@ class php7_0-fpm {
     owner   => root,
     group   => root,
     mode    => '0644',
-    source  => 'puppet:///modules/php7-fpm/php.ini',
+    source  => 'puppet:///modules/php7_0-fpm/php.ini',
     notify  => Service['php7.0-fpm'],
     require => Package['php7.0-fpm'],
   }

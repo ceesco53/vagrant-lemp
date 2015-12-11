@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = 'ubuntu/trusty64'
 
   # The hostname for the VM
-  config.vm.hostname = 'vagrant-wordpress'
+  config.vm.hostname = 'vagrant-lemp'
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
